@@ -1175,7 +1175,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
 }
-
+//This function it is use tu see if the divice supports APL
 function supportsAPL(handlerInput) { 
   const supportedInterfaces = 
   handlerInput.requestEnvelope.context.System.device.supportedInterfaces;
